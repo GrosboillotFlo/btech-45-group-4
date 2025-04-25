@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width: 320px;
+}
+
+.h2 {
+  color: green;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.lien-navbar {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.photo-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #262626;
+  width: 50%;
+  height: 200px;
+}
+
+
+#div-parent {
+  display: flex;
+  flex-direction: row;
+}
+
+#horaires {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1E352F;
+  color: white;
+
+  width: 160px;
+  height: 200px;
+}
+
+#qui-nous-sommes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4E4C9;
+  width: 100%;
+  height: 400px;
+  padding: 8px;
+}
+
+#spécialités-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+#spécialités {
+  display: flex;
+  flex-direction: row;
+  background-color: #262626;
+  width: 100%;
+}
+
+#button-menu {
+  background-color: #f8aa24;
+  color: white;
+  padding: 20px 40px;
+  margin: 14px;
+  border-style: none;
+  border-radius: 8px;
+  font-size: 14px;
+  border: none;
+  text-decoration: none;
+}
+
+#map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e352f;
+}
+
+img {
+  height: 100px;
+}
+
+#test {
+  width: 350px;
+  margin: 20px;
+}
+
+footer {
+  background-color: #1e352f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.lien-footer {
+  font-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.text-clasic{
+  font-size: 18px;
+  text-align: center;
+  margin: 14px;
+}
+
+.h2-white{
+  color: rgb(246, 239, 230);
+  font-size: 26px;
+  text-align: center;
+}
+
+.h2-green{
+  color: #1E352F;
+  font-size: 18px;
+  text-align: center;
+}
